@@ -111,3 +111,41 @@ body {
     background-color: rgba(255, 255, 255, 0.993); /* Slightly visible background on hover */
     color: #080001;
 }
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .main_hm, .main_gs {
+      width: 80%;
+      height: auto;
+    }
+  
+    #home-Sc, #guest-Gs {
+      font-size: 40px;
+      width: 100px;
+      height: 8vh;
+    }
+  
+    #homebtn button, #guestbtn button, #clrbtn {
+      margin-right: 5px;
+      margin-bottom: 5px;
+      padding: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #home-Sc, #guest-Gs {
+      font-size: 30px;
+      width: 80px;
+      height: 6vh;
+    }
+  
+    #homebtn button, #guestbtn button, #clrbtn {
+      font-size: 14px;
+      padding: 3px;
+    }
+  }
