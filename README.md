@@ -1,5 +1,7 @@
 # Baseball Scoreboard App
 
+For a live demo please visit : https://resonant-souffle-674dd5.netlify.app/
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
