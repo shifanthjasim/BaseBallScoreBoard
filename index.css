@@ -1,0 +1,113 @@
+@import url("https://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+body {
+  margin: 0;
+  text-align: center;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#mainwrapper {
+  display: flex;
+  background: #1b244a;
+  border-radius: 20px;
+}
+
+.main_hm {
+  width: 300px;
+  height: 30vh;
+}
+
+#home-Sc {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 10vh;
+  background: #080001;
+  color: #f94f6d;
+}
+
+#homebtn {
+  padding-top: 20px;
+}
+
+#hmbtnhover:hover {
+    background-color: rgba(126, 250, 244, 0.993); /* Slightly visible background on hover */
+    color: #080001;
+}
+
+#homebtn button {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  color: aliceblue;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-bottom: 9px;
+}
+
+.main_gs {
+  width: 300px;
+  height: 30vh;
+}
+
+#guest-Gs {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 10vh;
+  background: #080001;
+  color: #f94f6d;
+}
+
+
+
+
+#guestbtn {
+  padding-top: 20px;
+}
+
+
+#guestbtn button {
+  color: aliceblue;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-bottom: 9px;
+}
+
+
+#gbtnhover:hover {
+    background-color: rgba(126, 250, 244, 0.993); /* Slightly visible background on hover */
+    color: #080001;
+}
+
+
+#clrbtn {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  color: aliceblue;
+  padding: 3px 3px 3px;
+  cursor: pointer;
+}
+
+#clrbtn:hover{
+    background-color: rgba(255, 255, 255, 0.993); /* Slightly visible background on hover */
+    color: #080001;
+}

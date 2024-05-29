@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <!-- This is the Main Container-->
+    <div class="container">
+      <!--All the "HOME" related componets are in this DIV-->
+
+      <div id="mainwrapper">
+      <div class="main_hm">
+        <h3>HOME</h3>
+        <div id="home-Sc"><span>0</span></div>
+        <div id="homebtn">
+          <button id="hmbtnhover" onclick="homeBtn1()">+1</button>
+          <button id="hmbtnhover" onclick="homeBtn2()">+2</button>
+          <button id="hmbtnhover" onclick="homeBtn3()">+3</button>
+        </div>
+        <div class="clearbutton">
+          <button id="clrbtn" onclick="clearHome()">Clear</button>
+        </div>
+      </div>
+
+      <!--All the "GUEST" related componets are in this DIV-->
+     <div class="main_gs">
+        <h3>GUEST</h3>
+        <div id="guest-Gs"><span>0</span></div>
+        <div id="guestbtn">
+          <button id="gbtnhover" onclick="guestBtn1()">+1</button>
+          <button id="gbtnhover" onclick="guestBtn2()">+2</button>
+          <button id="gbtnhover" onclick="guestBtn3()">+3</button>
+        </div>
+        <div class="clearbutton">
+          <button id="clrbtn" onclick="clearGuest()">Clear</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
